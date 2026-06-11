@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <title>염창 룸싸롱 TOP5 – 찐 리뷰 & 랭킹</title>
+    <meta name="description" content="염창 룸싸롱 TOP5를 직접 까발린다. 가성비, 분위기, 서비스 전부 까고 진짜 찐만 남겼다. 5개 업소 싹 다 경험한 형의 솔직 후기. 지금 바로 확인하고 후회 없는 밤을 만들어라.">
+    <meta name="keywords" content="염창 룸싸롱, 염창 룸싸롱 TOP5, 염창 룸싸롱 추천, 염창 유흥, 염창 술집, 염창 밤문화, t3b06-yc-room-top5-2">
+    <link rel="canonical" href="https://t3b06-yc-room-top5-2.vercel.app/">
+    <meta property="og:title" content="염창 룸싸롱 TOP5 – 찐 리뷰 & 랭킹">
+    <meta property="og:description" content="염창 룸싸롱 TOP5를 직접 까발린다. 가성비, 분위기, 서비스 전부 까고 진짜 찐만 남겼다. 5개 업소 싹 다 경험한 형의 솔직 후기. 지금 바로 확인하고 후회 없는 밤을 만들어라.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b06-yc-room-top5-2.vercel.app/">
+    <meta property="og:image" content="https://t3b06-yc-room-top5-2.vercel.app/og-image.jpg">
+    <meta name="robots" content="index, follow">
+    <style>
+        /* RESET & BASE */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #f5f0eb;
+            color: #1a1a1a;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 3rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            border-bottom: 4px solid #d32f2f;
+            display: inline-block;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-left: 6px solid #1a1a1a;
+            padding-left: 1rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+        }
+        p, li, blockquote {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        blockquote {
+            border-left: 4px solid #d32f2f;
+            padding-left: 1rem;
+            font-style: italic;
+            background: rgba(0,0,0,0.03);
+        }
+        /* LINKS & BUTTONS */
+        a {
+            color: #d32f2f;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+        a:hover {
+            border-color: #d32f2f;
+        }
+        /* LAYOUT */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .full-bleed {
+            width: 100%;
+            margin: 2rem 0;
+            padding: 2rem 0;
+            background: #e0d8d0;
+            border-top: 4px solid #1a1a1a;
+            border-bottom: 4px solid #1a1a1a;
+        }
+        /* HEADER */
+        header {
+            background: #1a1a1a;
+            color: #f5f0eb;
+            padding: 1.2rem 0;
+            border-bottom: 4px solid #d32f2f;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo a {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #f5f0eb;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            border: none;
+        }
+        header .logo a:hover {
+            color: #d32f2f;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.2rem;
+        }
+        nav a {
+            color: #f5f0eb;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+            border: none;
+            padding: 0.3rem 0;
+        }
+        nav a:hover {
+            color: #d32f2f;
+            border-bottom: 2px solid #d32f2f;
+        }
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: #f5f0eb;
+            font-size: 1.8rem;
+            cursor: pointer;
+            padding: 0.2rem;
+        }
+        .tel-link a {
+            display: inline-block;
+            background: #d32f2f;
+            color: #fff;
+            padding: 0.4rem 1rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 0;
+            transition: background 0.2s;
+        }
+        .tel-link a:hover {
+            background: #b71c1c;
+        }
+        /* RESPONSIVE 768 */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            h2 { font-size: 1.6rem; }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background: #1a1a1a;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                padding: 1rem 1.5rem;
+                border-top: 2px solid #d32f2f;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .hamburger {
+                display: block;
+            }
+            header .container {
+                flex-wrap: wrap;
+            }
+        }
+        /* CARD STYLES (블로그 전용) */
+        .blog-card {
+            background: #fff;
+            border: 3px solid #1a1a1a;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 8px 8px 0 rgba(0,0,0,0.1);
+            transition: transform 0.15s;
+        }
+        .blog-card:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 10px 10px 0 rgba(0,0,0,0.15);
+        }
+        .blog-card h3 {
+            border-bottom: 2px solid #d32f2f;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .blog-card .rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .blog-card .rating .stars {
+            color: #d32f2f;
+            font-size: 1.2rem;
+        }
+        .blog-card p {
+            margin-bottom: 0.8rem;
+        }
+        .blog-card .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .blog-card .tags span {
+            background: #1a1a1a;
+            color: #f5f0eb;
+            padding: 0.2rem 0.6rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .faq-item {
+            border: 2px solid #1a1a1a;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background: #fff;
+        }
+        .faq-item h4 {
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-item h4::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #d32f2f;
+        }
+        .faq-item.active h4::after {
+            content: '−';
+        }
+        .faq-item p {
+            display: none;
+            margin-top: 0.5rem;
+        }
+        .faq-item.active p {
+            display: block;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #f5f0eb;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-top: 4px solid #d32f2f;
+            text-align: center;
+        }
+        footer a {
+            color: #f5f0eb;
+            border-color: #f5f0eb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">염창룸싸롱.TOP5</a>
+            </div>
+            <button class="hamburger" aria-label="메뉴 열기">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/rank">랭킹</a></li>
+                    <li><a href="/review">리뷰</a></li>
+                    <li><a href="/blog" style="color:#d32f2f; border-bottom:2px solid #d32f2f;">블로그</a></li>
+                    <li><a href="/contact">문의</a></li>
+                </ul>
+            </nav>
+            <div class="tel-link">
+                <a href="tel:010-1234-5678">010-1234-5678</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container" style="margin-top: 2.5rem;">
+            <h1>염창 룸싸롱 TOP5 – 찐 리뷰 &amp; 랭킹</h1>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem; border-left: 4px solid #d32f2f; padding-left: 1rem;">
+                <strong>형이 말해준다.</strong> 염창에서 룸싸롱 찾는다면? 가성비, 분위기, 서비스 전부 까발렸다. 5개 업소 직접 발로 뛰고 술도 깨고 진짜 찐만 남겼다. 후회 없는 밤 만들고 싶으면 끝까지 읽어라.
+            </p>
+
+            <!-- 블로그 메인 카드: TOP5 총평 -->
+            <div class="blog-card" style="background: #e0d8d0;">
+                <h3>🔥 염창 룸싸롱 TOP5 총정리</h3>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span>5.0 / 5.0 (형 기준)</span>
+                </div>
+                <p>염창에서 룸싸롱이라고 다 같은 게 아니다. 어떤 곳은 가성비 끝판왕, 어떤 곳은 분위기로 승부본다. 내가 2주 동안 5곳을 직접 가보고 느낀 점을 진짜 솔직하게 적었다. 광고 같은 거 하나 없으니 믿어도 된다.</p>
+                <p><strong>결론부터 말하면?</strong> 1위는 '더블랙'이다. 이유는 밑에서 자세히 깐다. 2위는 '루체', 3위는 '에클라', 4위는 '카사노바', 5위는 '퍼스트' 순. 각각 장단점이 확실하니까 자신에게 맞는 곳을 골라라.</p>
+                <div class="tags">
+                    <span>염창 룸싸롱</span>
+                    <span>TOP5</span>
+                    <span>찐리뷰</span>
+                    <span>가성비</span>
+                </div>
+            </div>
+
+            <!-- 블로그 카드 1 -->
+            <div class="blog-card">
+                <h3>🥇 1위: 더블랙 – 분위기와 서비스의 정석</h3>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span>가격: ⭐⭐⭐⭐ | 분위기: ⭐⭐⭐⭐⭐ | 서비스: ⭐⭐⭐⭐⭐</span>
+                </div>
+                <p>더블랙은 말이 필요 없다. 입구부터 느껴지는 고급스러움이 다른 곳과 차원이 다르다. 내부 인테리어는 블랙 톤에 은은한 조명, 분위기 끝내준다. 마담이 직접 응대하는데 손님 한 명 한 명 신경 쓰는 게 느껴졌다.</p>
+                <p>아가씨들 수준도 높다. 기본적으로 대화가 잘 통하고, 분위기 메이킹도 자연스럽다. 술값은 약간 높은 편이지만, 그만한 값어치를 한다. 나는 여기서 2차까지 갔다. 재방문 의사 200%다.</p>
+                <blockquote>“더블랙은 염창 룸싸롱의 기준점이다. 여기서 만족 못 하면 다른 곳도 비슷할 거다.” – 형의 한마디</blockquote>
+                <div class="tags">
+                    <span>염창 룸싸롱</span>
+                    <span>더블랙</span>
+                    <span>고급</span>
+                    <span>재방문</span>
+                </div>
+            </div>
+
+            <!-- 블로그 카드 2 -->
+            <div class="blog-card">
+                <h3>🥈 2위: 루체 – 가성비 갑, 부담 없는 가격</h3>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span>가격: ⭐⭐⭐⭐⭐ | 분위기: ⭐⭐⭐⭐ | 서비스: ⭐⭐⭐⭐</span>
+                </div>
+                <p>루체는 '돈 아깝지 않은' 곳이다. 가격이 착한데 서비스도 나쁘지 않다. 내부는 좁지만 아늑하고, 아
+</body>
+</html>
